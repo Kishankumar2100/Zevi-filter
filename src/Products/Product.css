@@ -45,3 +45,17 @@
 .bag-icon {
   color: #535353;
 }
+
+
+@media screen and (max-width: 768px) {
+  .card-container {
+    margin-left: 0;
+    justify-content: center;
+  }
+
+  .card {
+    width: 80%; /* Make cards take up full width */
+  }
+
+
+}

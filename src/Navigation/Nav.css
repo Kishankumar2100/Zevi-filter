@@ -24,3 +24,30 @@ input {
   height: 1.5rem;
   margin-left: 2rem;
 }
+
+
+@media screen and (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 0;
+    justify-content: space-between;
+  }
+
+  input {
+    width: 94%;
+    /* margin: 10px 0; */
+    margin-left: 55px;
+    margin-right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .nav-icons {
+    
+    margin-left: 152px;
+    position: absolute;
+    opacity: -1;
+  }
+}

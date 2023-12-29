@@ -16,3 +16,20 @@
 .logo-container h1 {
   margin-top: 1.3rem;
 }
+
+@media screen and (max-width: 768px) {
+  .sidebar {
+    width: 100%; /* Make the sidebar take up the full width */
+    height: auto;
+    position: static;
+    border-right: none;
+  }
+
+  .logo-container {
+    margin-bottom: 2rem;
+  }
+
+  .logo-container h1 {
+    margin-top: 0.8rem;
+  }
+}

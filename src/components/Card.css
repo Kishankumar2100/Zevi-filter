@@ -47,3 +47,9 @@
     animation: pulse 1s infinite; 
     
   }
+
+  @media screen and (max-width: 768px) {
+    .card::before {
+      width: 100%; /* Full width for the "View Product" overlay on smaller screens */
+    }
+  }

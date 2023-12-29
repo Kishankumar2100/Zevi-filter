@@ -9,3 +9,22 @@
   margin-top: 20px;
   font-size: 20px;
 }
+
+
+@media screen and (max-width: 768px) {
+  .recommended-flex {
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 0;
+    margin-bottom: 5px;
+    gap: 5px;
+  }
+
+  .recommended-title {
+    margin-left: 0;
+    text-align: center;
+    gap: 10px;
+  }
+ 
+}

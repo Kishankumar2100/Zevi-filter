@@ -3,6 +3,7 @@
   margin: 0;
   box-sizing: border-box;
   font-family: sans-serif;
+  
 }
 
 
@@ -25,4 +26,8 @@ li {
   border-radius: 5px;
   color: #323232;
   cursor: pointer;
+}
+
+@media screen and (max-width: 768px){
+  margin-right: 0;
 }
